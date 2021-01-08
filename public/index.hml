@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <script type="text/javascript">
+      function on_close() {
+        window.whaleShell.execute("am close myself");
+      }
+    </script>
+  </head>
+  <body>
+    <p>System app: Settings</p>
+    <button onclick="on_close();">close</button>
+  </body>
+</html>
